@@ -1,0 +1,14 @@
+ibm-watsonx-ai
+plotly
+python-pptx
+kaleido
+fastapi 
+uvicorn 
+pandas 
+ibm-cos-sdk
+ibm-cos-sdk-core
+ibm-cos-sdk-s3transfer
+python-dotenv
+python-multipart
+python-magic
+standard-imghdr

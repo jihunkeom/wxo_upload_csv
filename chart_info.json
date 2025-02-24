@@ -1,0 +1,34 @@
+{
+    "CPU": {
+        "title_str": "CPU Utilization",
+        "y_str": "PCTSYSCPU",
+        "y_metric": "Usage (%)",
+        "range_max": 100,
+        "dtick_val": 10,
+        "threshold": 70
+    },
+    "DISKBUSY": {
+        "title_str": "Disk Busy",
+        "y_str": "PCTDSKBUSY",
+        "y_metric": "Disk Arm Usage (%)",
+        "range_max": 60,
+        "dtick_val": 10,
+        "threshold": 40
+    },
+    "INTERACTIVE": {
+        "title_str": "Interactive Reponse Time",
+        "y_str": "RESPTIME",
+        "y_metric": "response time (sec)",
+        "range_max": 5,
+        "dtick_val": 0.5,
+        "threshold": 2
+    },
+    "MEMORY": {
+        "title_str": "Memory Page Fault",
+        "y_str": "FLTRATE",
+        "y_metric": "number of Fault per second",
+        "range_max": 0,
+        "dtick_val": 100,
+        "threshold": 0
+    }    
+}
