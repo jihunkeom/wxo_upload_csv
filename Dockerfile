@@ -9,7 +9,8 @@ COPY routes /app
 COPY schemas /app
 COPY services /app
 COPY utils /app
-
+COPY main.py /app 
+COPY chart_info.json /app
 COPY requirements.txt /app
 
 # Install pip dependencies
