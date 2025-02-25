@@ -5,7 +5,10 @@ FROM python:3.11.11
 WORKDIR /app
 
 # Copy only the requirements file to the container at /app
-COPY src /app
+COPY routes /app
+COPY schemas /app
+COPY services /app
+COPY utils /app
 
 COPY requirements.txt /app
 
